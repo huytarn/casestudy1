@@ -1,0 +1,33 @@
+# Khoi tao bien
+score = 0 
+current_question = 1
+
+#vong lap cho game
+# while current_question <= 3
+ # Cau hoi 1
+# if current_question == 1
+answer = input("Cau 1: Python duoc phat hanh vao nam nao? A.1991, B. 1989, C.2000, D.1995")
+if answer.upper() == "A" or "a":
+  print("Dung!")
+  score += 1
+  print("cau tra loi cua ban dung roi. Diem so:", score) 
+
+else: 
+  print ("Sai!")
+  score -= 1
+  print("cau tra loi cua ban sai roi. Diem so:", score) 
+
+#Cau hoi 2
+# if current_question == 2
+answer = input("Câu lệnh nào dùng để hiển thị dữ liệu ra màn hình trong Python? A. print(), B. cout<<, C. System.out.println(), D. echo")
+if answer.upper() == "A" or "a":
+  print("Dung!")
+  score += 1
+  print("cau tra loi cua ban dung roi. Diem so:", score) 
+
+else: 
+  print ("Sai!")
+  score -= 1
+  print("cau tra loi cua ban sai roi. Diem so:", score) 
+
+print(score) 
